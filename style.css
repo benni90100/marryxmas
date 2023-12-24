@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(199, 25, 25);
+}
+.albero{
+    max-width: 400px;
+    max-height: 800px;
+    border: 1px solid green;
+}
+
+.rami{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foglie, .tronco{
+    width: 45px;
+    height: 50px;
+    background-color: rgb(65, 196, 13);
+}
+.tronco{
+    width: 100px;
+    width: 30px;
+    background-color:rgb(124, 39, 0);
+}
+h2, .xmas{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 3rem;
+text-align: center;
+color: white;
+}
+.palline{
+    position: absolute;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
